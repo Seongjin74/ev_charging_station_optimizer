@@ -21,14 +21,23 @@ For regions with a positive gap (indicating a shortage of charging stations), a 
 ## Repository Structure
 
 ├── EV_Charging_Status.xls # EV charging station status dataset from the Korea Electric Power Corporation 
+
 ├── EV_Charging_geo.zip # Shapefile containing EV charging station geographic data 
+
 ├── area_code.csv # Administrative area code data for traffic dataset 
+
 ├── ev_charging_geo_map.html # Interactive HTML map visualizing charging station locations and candidate sites 
+
 ├── ev_charging_station_optimizer.ipynb # Jupyter Notebook with the analysis code and visualization examples 
+
 ├── ev_data.csv # EV registration data (as of 2025-02-28) 
+
 ├── traffic.csv # Traffic data (with ALL_AADT values) 
+
 ├── traffic_geocoded.pkl # Pre-processed and geocoded traffic data (pickle file) 
+
 ├── 전기차 충전소 선택 최적화 및 공간분석 기법 적용.pdf # Thesis document in Korean 
+
 └── README.md # This README file
 
 
