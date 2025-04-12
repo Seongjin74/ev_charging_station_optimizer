@@ -36,7 +36,7 @@ For regions with a positive gap (indicating a shortage of charging stations), a 
 
 ├── traffic_geocoded.pkl # Pre-processed and geocoded traffic data (pickle file) 
 
-├── 전기차 충전소 선택 최적화 및 공간분석 기법 적용.pdf # Thesis document in Korean 
+├── ECSOA.pdf # Thesis document in Korean 
 
 └── README.md # This README file
 
@@ -50,7 +50,7 @@ For regions with a positive gap (indicating a shortage of charging stations), a 
 - **traffic.csv:** Contains estimated 2021 traffic volume data (ALL_AADT) at the level of administrative subregions (읍·면·동).
 - **traffic_geocoded.pkl:** The geocoded version of the traffic data, created via the Nominatim API.
 - **ev_charging_geo_map.html:** An interactive HTML map displaying current EV charging station locations (blue dots) and proposed candidate locations for additional stations (red stars).
-- **전기차 충전소 선택 최적화 및 공간분석 기법 적용.pdf:** The complete thesis document (in Korean) describing the methodology and results of the project.
+- **ECSOA.pdf:** The complete thesis document (in Korean) describing the methodology and results of the project.
 
 ## Usage
 
@@ -61,7 +61,7 @@ For regions with a positive gap (indicating a shortage of charging stations), a 
    Open `ev_charging_geo_map.html` in a web browser to view the interactive map with visualizations of existing charging stations and the proposed additional candidate sites.
   
 3. **Thesis Document:**  
-   Review the thesis PDF (`전기차 충전소 선택 최적화 및 공간분석 기법 적용.pdf`) for a detailed description of the methodology, experiments, and evaluation.
+   Review the thesis PDF (`ECSOA.pdf`) for a detailed description of the methodology, experiments, and evaluation.
 
 ## Dependencies
 
